@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="board">
+        <form id="todo-form">
+            <input type="text" placeholder="Add New Task.. " id="todo-input" autocomplete="off" />
+            <button type="submit" id="submit">Add Task +</button>
+        </form>
+
+        <div class="task-cards">
+            <div class="card-box" id="todo-cards">
+                <h3 class="heading">OPEN</h3>
+                <!-- <p class="task" draggable="true">Code</p> -->
+            </div>
+
+            <div class="card-box">
+                <h3 class="heading">IN-PROGRESS</h3>
+                <!-- <p class="task" draggable="true">On review</p> -->
+                
+            </div>
+
+            <div class="card-box">
+                <h3 class="heading">DONE</h3>
+                <!-- <p class="task" draggable="true">Code3</p> -->
+          
+            </div>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
